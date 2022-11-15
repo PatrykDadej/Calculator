@@ -1,0 +1,122 @@
+body{
+    background-color:rgb(136, 29, 202);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+  }
+  
+  .display {
+    display:flex;
+    justify-content:end;
+    align-items: end;
+    color:white;
+    width:200px;
+    height:100px;
+    border-width:1px;
+    margin:0;
+    background-color:#150c1b;
+  }
+  .calculator {
+    margin-top: 100px;
+    background-color:#150c1b;
+    border-style:solid;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    border-radius:10px;
+  }
+
+  button {
+  width:50px;
+  height:50px;
+  background-color:#1f1227;
+  border:none;
+  font-family: 'Montserrat', sans-serif;
+  font-size:20px;
+  }
+  
+  button:hover {
+    color:white;
+    background-color:#57346c;
+    transition-duration:0.1s
+    
+  }
+  
+  button:active {
+    color:white;
+    background-color:#d38bff;
+    transition-duration:0.2s
+    
+  }
+  
+  .operator,
+  .equalButton,
+  .clearButton {
+    color:#a857d9;
+  }
+  .displayContent{
+    font-family: 'Montserrat', sans-serif;
+    font-size:30px;
+  }
+  
+  .row1 {
+    display:flex;
+    justify-content: space-between;}
+  
+  .clearButton {
+    flex:2
+  }
+  
+  .equalButton{
+    background-color:#bc62f3;
+    color:white;
+    border-bottom-right-radius: 10px;
+    flex:2
+  }
+  .number,.comaButton{
+  color:white;
+  }
+  .buttonsSection div {
+    display:flex;
+    margin: 1px 0px;
+    gap:1px;
+  }
+  
+  .buttonsSection div button{
+    justify-content:center;
+    align-items:center;
+    margin:0;
+  }
+  
+  .row5{
+    display:flex;
+    gap:1px;
+  }
+  
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    font-size:50px;
+    letter-spacing:6px;
+  }
+  
+  
+  .active {
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #a528f3;
+    color: white;
+  }
+
+  .message {
+    color:aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+  }
+
+  .extra {
+    position: relative;
+    
+    
+  }
+  
